@@ -3,6 +3,6 @@
 #include <time.h>
 
 char randchar() {
-    char ch = 'A';
+    char ch = 'a';
     return (ch + rand() % 26);
 }
